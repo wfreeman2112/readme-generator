@@ -1,8 +1,10 @@
-# a
+// function to generate markdown for README
+function generateMarkdown(data) {
+ return `# ${data.title}
 
  ## Description 
  
- a
+
  
  ## Table of Contents (Optional)
  
@@ -19,16 +21,16 @@
  
  ## Installation
  
- a
+
  
  
  ## Usage 
  
- a
+
  
  ## License
  
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
  
  
  ---
@@ -41,17 +43,20 @@
   
  ## Contributing
  
-a
+
  
  ## Tests
  
-a
+
  
  ## Questions
 
- Github Profile Link - https://github.com/wfreeman2112  <br>
- Email - wfreeman2112@gmail.com
+ 
 
  
  
+  `;
+  }
+  
+  module.exports = generateMarkdown;
   
