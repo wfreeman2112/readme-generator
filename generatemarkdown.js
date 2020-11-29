@@ -3,7 +3,7 @@ function generateMarkdown(data) {
  return `# ${data.title}
 
  ## Description 
- 
+ ${data.description}
 
  
  ## Table of Contents (Optional)
@@ -20,18 +20,19 @@ function generateMarkdown(data) {
  * [Questions](#questions)
  
  ## Installation
- 
+ ${data.installation}
 
  
  
  ## Usage 
  
-
+${data.usage}
  
  ## License
  
  
- 
+ ${data.license === "MIT" ? "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" : data.license ===  "Mozilla" ? "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)" : data.license === "IBM" ? "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)" : "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"}
+
  
  ---
  
@@ -42,19 +43,17 @@ function generateMarkdown(data) {
  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   
  ## Contributing
- 
+ ${data.contributing}
 
- 
  ## Tests
  
-
+${data.tests}
  
  ## Questions
 
- 
+ Github Profile Link - ${data.profile}  <br>
+ Email - ${data.email}
 
- 
- 
   `;
   }
   
