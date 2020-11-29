@@ -60,3 +60,23 @@ const questions = [
     message: "What is your email?",
   },
 ];
+
+// function to initialize program
+function init() {
+  inquirer.prompt(questions).then((data) => {
+    axios
+      .get("https://api.github.com/users/" + data.username)
+      .then((response) => {
+        data.profile = response.data.html_url;
+        const readMeContent = generateMarkdown(data);
+        // function to write README file
+        fs.writeFile("README.md", readMeContent, (err) => {
+          if (err) throw err;
+          console.log("success!");
+        });
+      });
+  });
+}
+
+// function call to initialize program
+init();
