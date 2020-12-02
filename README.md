@@ -54,5 +54,5 @@ type "node index.js" and follow the prompts in the console
  Email - wfreeman2112@gmail.com
 
  ## Video
- <iframe src="https://drive.google.com/file/d/1OBzsKN9BC6JEeYWHzAaJPt7shMvBuJoG/preview" width="640" height="480"></iframe>
+ https://youtu.be/_dJ95DJRVes
   
