@@ -28,7 +28,7 @@ type "node index.js" and fill in the questions
  
  ## License
  
- //wrote ternary operator for different licenses
+ 
  
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -53,4 +53,6 @@ type "node index.js" and follow the prompts in the console
  Github Profile Link - https://github.com/wfreeman2112  <br>
  Email - wfreeman2112@gmail.com
 
+ ## Video
+ <iframe src="https://drive.google.com/file/d/1OBzsKN9BC6JEeYWHzAaJPt7shMvBuJoG/preview" width="640" height="480"></iframe>
   
