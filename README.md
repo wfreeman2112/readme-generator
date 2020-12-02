@@ -1,8 +1,8 @@
-# a
+# ReadMe Generator
 
  ## Description 
- 
- a
+ using node.js and npm, I created an app to write a ReadMe for a project, solely using back end technology
+
  
  ## Table of Contents (Optional)
  
@@ -18,18 +18,20 @@
  * [Questions](#questions)
  
  ## Installation
- 
- a
+ install npm and inquirer
+
  
  
  ## Usage 
  
- a
+type "node index.js" and fill in the questions
  
  ## License
  
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ //wrote ternary operator for different licenses
  
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
  
  ---
  
@@ -40,18 +42,15 @@
  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   
  ## Contributing
- 
-a
- 
+ Wendi Freeman
+
  ## Tests
  
-a
+type "node index.js" and follow the prompts in the console
  
  ## Questions
 
  Github Profile Link - https://github.com/wfreeman2112  <br>
  Email - wfreeman2112@gmail.com
 
- 
- 
   
